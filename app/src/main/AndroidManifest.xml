@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhi.offlinemaps">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/mycurrentlocation"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.skobbler.ngx.API_KEY"
+            android:value="5c82a02fd44ceb733a524188b9420843f07390a0ce61cc0747f6369a9b215d39" />
+
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"/>
+
+    </application>
+
+</manifest>

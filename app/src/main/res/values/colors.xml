@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_filling">#e0e0ff</color>
+    <color name="blue_outline">#6060ff</color>
+    <color name="darker_grey">#404040</color>
+    <color name="grey">#c0c0c0</color>
+    <color name="light_grey">#a0a0a0</color>
+    <color name="black">#000000</color>
+    <color name="selected">#FAEFAA</color>
+    <color name="orange">#ffff8800</color>
+    <color name="light_orange">#ffe27d18</color>
+    <color name="list_text_color">#1b1b1b</color>
+    <color name="transparent">#00000000</color>
+    <color name="menu_bar_separator_color">#656565</color>
+    <color name="menu_bar_item_text">#e4e2e3</color>
+    <color name="menu_bar_header_text">#8c8b8b</color>
+    <color name="top_bar_color">#D9222222</color>
+    <color name="navigate_blue_button">#0080ff</color>
+    <color name="green">#00ff00</color>
+
+    <color name="red">#ff0000</color>
+    <color name="gray">#d8d8d8</color>
+
+    <color name="bullet_gray">#898989</color>
+    <color name="bullet_green">#30e162</color>
+    <color name="speed_exceeded">#FF5649</color>
+    <color name="ripple_gray_color">#c6c6c6</color>
+    <color name="dark_gray">#3A3A3A</color>
+
+    <color name="navigation_semitransparent_separator">#1A000000</color>
+    <color name="navigation_next_advice_overlay_background">#16000000</color>
+    <color name="speed_panel_night_background">#717171</color>
+    <color name="grey_options_group">#a0a0a0</color>
+    <color name="list_separator">#EDEDED</color>
+    <color name="light_gray">#898989</color>
+
+    <!-- navigation panels-->
+    <color name="navigation_style_day">#494949</color>
+    <color name="navigation_style_night">#6c6c6c</color>
+
+    <color name="navigation_bottom_bar_day">#E6FFFFFF</color>
+    <color name="green_panel_day_background">#00B363</color>
+    <color name="green_panel_night_background">#22AC4A</color>
+    <color name="green_panel_night_text">#70FF98</color>
+
+    <color name="blue_panel_day_background">#005EBC</color>
+    <color name="blue_panel_night_background">#0080FF</color>
+    <color name="blue_panel_night_text">#7FBFFF</color>
+
+    <color name="yellow_panel_day_background">#FFC702</color>
+    <color name="yellow_panel_night_background">#AC8A31</color>
+    <color name="yellow_panel_night_text">#FFDA7C</color>
+
+    <color name="searching_for_gps_bg">#FF5649</color>
+</resources>

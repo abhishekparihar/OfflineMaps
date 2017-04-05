@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Search Place...."
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:id="@+id/search_topic_field"/>
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/background_light"
+        android:drawableRight="@drawable/search_grey"
+        android:layout_alignBaseline="@+id/search_topic_field"
+        android:layout_alignBottom="@+id/search_topic_field"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
